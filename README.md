@@ -1,15 +1,15 @@
-# Redmine Hours
+# Redmine Working Hours
 
 ### 简介
-Redmine Hours 是一个用于提交 Redmine 工时的命令行工具。通过读取配置文件和模板文件，自动将工时记录推送到 Redmine 服务器。
+Redmine Working Hours 是一个用于提交 Redmine 工时的命令行工具。通过读取配置文件和模板文件，自动将工时记录推送到 Redmine 服务器。
 
 ### 安装
 ```bash
-npm install -g redmine-hours
+npm install -g redmine-working-hours
 ```
 
 ### 使用方法
-1. 配置文件：创建 `.redmine-hours.config.json` 文件，内容如下：
+1. 配置文件：创建 `.redmine-wh.config.json` 文件，内容如下：
    ```json
    {
      "API_URL": "https://your-redmine-url.com",
@@ -29,7 +29,7 @@ npm install -g redmine-hours
 
 3. 运行命令：
    ```bash
-   redmine-hours -c .redmine-hours.config.json -t template.txt
+   redmine-wh -c .redmine-wh.config.json -t template.txt
    ```
 
 ### 配置选项
@@ -37,9 +37,9 @@ npm install -g redmine-hours
 - `-t, --template <path>`: 指定模板文件路径
 
 ### 示例
-假设配置文件路径为 `.redmine-hours.config.json`，模板文件路径为 `template.txt`，运行以下命令：
+假设配置文件路径为 `.redmine-wh.config.json`，模板文件路径为 `template.txt`，运行以下命令：
 ```bash
-redmine-hours -c .redmine-hours.config.json -t template.txt
+redmine-wh -c .redmine-wh.config.json -t template.txt
 ```
 
 ### 注意事项
