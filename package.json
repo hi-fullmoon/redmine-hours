@@ -1,6 +1,6 @@
 {
   "name": "redmine-working-hours ",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "",
   "bin": {
     "redmine-wh": "dist/index.js"
@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:hi-fullmoon/redmine-hours.git"
+    "url": "git@github.com:hi-fullmoon/redmine-working-hours.git"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.25.8",
