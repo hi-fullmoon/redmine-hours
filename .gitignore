@@ -1,0 +1,7 @@
+/redmine-hours
+/node_modules
+/dist
+
+.DS_Store
+.redmine-hours.config.json
+.template.txt
