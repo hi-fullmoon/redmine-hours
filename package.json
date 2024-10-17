@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "redmine-hours": "./dist/index.js"
+    "redmine-hours": "dist/index.js"
   },
   "main": "./dist/index.js",
   "scripts": {
@@ -11,6 +11,11 @@
     "pkg": "npm run build && pkg .",
     "log": "node ./src/main.js -c .redmine-hours.config.json -t template.txt"
   },
+  "files": [
+    "dist/index.js",
+    "package.json",
+    "README.md"
+  ],
   "pkg": {
     "assets": [],
     "targets": [
