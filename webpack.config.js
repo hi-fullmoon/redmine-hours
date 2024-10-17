@@ -7,27 +7,16 @@ module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'index.js'
+    filename: 'index.js',
   },
   module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env']
-          }
-        }
-      }
-    ]
+    rules: [],
   },
   plugins: [
-		new webpack.BannerPlugin({
-      banner: '#!/usr/bin/env node --no-warnings',
+    new webpack.BannerPlugin({
+      banner: '#!/usr/bin/env node',
       raw: true,
-      entryOnly: true
+      entryOnly: true,
     }),
-  ]
+  ],
 };
