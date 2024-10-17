@@ -1,15 +1,15 @@
 {
-  "name": "redmine-hours",
+  "name": "redmine-working-hours ",
   "version": "1.0.2",
   "description": "",
   "bin": {
-    "redmine-hours": "dist/index.js"
+    "redmine-wh": "dist/index.js"
   },
   "main": "./dist/index.js",
   "scripts": {
     "build": "webpack",
     "pkg": "npm run build && pkg .",
-    "log": "node ./src/main.js -c .redmine-hours.config.json -t template.txt"
+    "log": "node ./src/main.js -c .redmine-wh.config.json -t template.txt"
   },
   "files": [
     "dist/index.js",
