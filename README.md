@@ -29,7 +29,7 @@ npm install -g redmine-hours
 
 3. 运行命令：
    ```bash
-   ./redmine-hours -c .redmine-hours.config.json -t template.txt
+   redmine-hours -c .redmine-hours.config.json -t template.txt
    ```
 
 ### 配置选项
