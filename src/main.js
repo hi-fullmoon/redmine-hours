@@ -58,10 +58,10 @@ function pushLog(issueId, date, hours, comments, config) {
     }),
   })
     .then(() => {
-      console.log(`Logged ${hours} hours on issue #${issueId} for ${date}`);
+      console.log(`Success: Recorded working hours log for issue #${issueId} on ${date}`);
     })
     .catch(() => {
-      console.log(`Error: Failed to log ${hours} hours on issue #${issueId} for ${date}`);
+      console.log(`Error: Failed to log working hours for issue #${issueId} on ${date}`);
     });
 }
 
@@ -85,6 +85,7 @@ function main() {
 
     const schedule = new Schedule();
     const result = parseLogTemplate(data);
+
     result.forEach((value, key) => {
       const issueId = key.slice(1);
       value.forEach((row) => {

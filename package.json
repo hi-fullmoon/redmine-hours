@@ -1,6 +1,6 @@
 {
-  "name": "redmine-working-hours ",
-  "version": "1.0.0",
+  "name": "redmine-working-hours",
+  "version": "1.0.1",
   "description": "",
   "bin": {
     "redmine-wh": "dist/index.js"
