@@ -23,11 +23,11 @@
     ],
     "outputPath": "./dist"
   },
-  "author": "",
+  "author": "Repeat",
   "license": "MIT",
-  "dependencies": {
-    "commander": "^12.1.0",
-    "yargs": "^17.7.2"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hi-fullmoon/redmine-hours.git"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.25.8",
