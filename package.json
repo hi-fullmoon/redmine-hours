@@ -30,8 +30,6 @@
     "url": "git@github.com:hi-fullmoon/redmine-working-hours.git"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.25.8",
-    "babel-loader": "^9.2.1",
     "webpack": "^5.95.0",
     "webpack-cli": "^5.1.4"
   },
